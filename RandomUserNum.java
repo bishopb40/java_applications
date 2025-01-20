@@ -17,9 +17,10 @@ public class RandomUserNum{
 		System.out.println("the number must be greater than 0");
 	}
 	else {
-	int randomnum = random.nextInt(num)+1;
+	int randomnum = random.nextInt(num) + 1;
+	System.out.printf("the random number is: %d%n", randomnum);
 	}
 	
-	System.out.printf("the random number is: %d%n", randomnum);
+	
     }
 }
