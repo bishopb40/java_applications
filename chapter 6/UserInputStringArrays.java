@@ -15,5 +15,6 @@ public class UserInputStringArrays{
 		for (int i = 0; i <5; i++){
 			System.out.printf("Element at index %d = %s%n",i,names[i]);
 		}
+		System.out.println("the element at the 3rd position is" + names[2]);
 	}
 }
